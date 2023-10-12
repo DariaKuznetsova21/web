@@ -1,0 +1,12 @@
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  padding-left: 5px;
+  min-width: 600px;
+  background-color: #00ffff;
+  border: solid 5px green;
+}

@@ -1,0 +1,27 @@
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  width: 750px;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+.first {
+  background-color: green;
+  width: 600px;
+  margin: auto;
+}
+
+.second {
+  margin-top: 15px;
+  background-color: blue;
+  padding: 50px;
+  border: solid 5px lightblue;
+}

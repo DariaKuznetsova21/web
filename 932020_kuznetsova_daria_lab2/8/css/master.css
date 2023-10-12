@@ -1,0 +1,43 @@
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 10px;
+  display: flex;
+}
+
+.left {
+  position: relative;
+}
+
+.beigeBox {
+  background-color: #f0ebb9;
+  height: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 150px;
+  margin: 0;
+}
+
+.blueBox {
+  background-color: blue;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.grayBox {
+  background-color: gray;
+}
+
+footer {
+  background-color: green;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}

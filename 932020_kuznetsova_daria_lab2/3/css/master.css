@@ -1,0 +1,15 @@
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  background-color: blue;
+  width: 600px;
+}
+
+p {
+  margin: 0;
+  color: white;
+}

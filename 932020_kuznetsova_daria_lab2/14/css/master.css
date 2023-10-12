@@ -1,0 +1,47 @@
+
+body {
+  margin: 10px;
+}
+
+main {
+  display: flex;
+  background-color: cyan;
+  border: solid 5px green;
+}
+
+.beigeBox {
+  background-color: #f0ebb9;
+  height: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex: 150px 0 0;
+  margin: 0;
+}
+
+.grayBox {
+  background-color: gray;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+@media screen and (max-width: 550px) {
+  main{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .beigeBox{
+    flex: auto;
+    height: auto;
+    padding: 0 40px;
+    margin: 15px 0;
+  }
+
+  li{
+    display: inline;
+    padding: 0 5px;
+  }
+}

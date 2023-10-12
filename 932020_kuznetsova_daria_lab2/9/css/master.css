@@ -1,0 +1,15 @@
+
+body {
+  margin: 0;
+}
+
+main {
+  width: 600px;
+  margin: auto;
+  background-color: blue;
+  color: white;
+}
+
+img {
+  float: right;
+}

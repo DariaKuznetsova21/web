@@ -1,0 +1,19 @@
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 5px;
+}
+
+.greenBox {
+  background-color: #7fffd4;
+  width: 200px;
+  height: 120px;
+  margin: 20px;
+}
+
+.beigeBox {
+  background-color: #ffe4c4;
+}

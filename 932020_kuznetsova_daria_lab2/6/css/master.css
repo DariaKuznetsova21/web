@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: auto;
+  width: 600px;
+  color: black;
+}
+
+p {
+  margin: 0;
+}
+
+.first {
+  background-color: white;
+  width: 600px;
+  margin: auto;
+}
+
+.second {
+  position: relative;
+  margin-top: 15px;
+  background-color: white;
+  padding: 50px;
+  border: solid 5px blue;
+}

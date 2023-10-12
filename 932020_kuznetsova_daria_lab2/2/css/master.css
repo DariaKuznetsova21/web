@@ -1,0 +1,50 @@
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 70px;
+  background-color: #888;
+}
+
+header h1 {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+}
+
+.left_column {
+  flex: 25% 0 0;
+  background-color: #C8FC98;
+}
+
+.right_column {
+  flex: 200px 0 0;
+  background-color: yellow;
+}
+
+.left_column, .content_column, .right_column {
+  padding: 5px;
+}
+
+span {
+  font-size: 18px;
+}
+
+.red {
+  color: red;
+  font-style: italic;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
+footer a {
+  color: yellow;
+}

@@ -1,0 +1,48 @@
+
+body {
+  margin: 10px;
+}
+
+main {
+  display: flex;
+  background-color: cyan;
+  border: solid 5px green;
+}
+
+img {
+  width: 40%;
+}
+.beigeBox {
+  background-color: #f0ebb9;
+  height: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex: 150px 0 0;
+  margin: 0;
+}
+
+.grayBox {
+  background-color: gray;
+  margin: 0;
+}
+
+.homa {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+
+p {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1015px){
+  .homa {
+    display: block;
+  }
+  img {
+    float: right;
+  }
+
+}

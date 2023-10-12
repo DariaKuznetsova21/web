@@ -1,0 +1,65 @@
+
+body {
+  margin: 0;
+}
+
+main {
+  color: white;
+  padding: 5px;
+}
+
+p {
+  margin: 0;
+}
+
+.small {
+  width: 150px;
+  height: 120px;
+}
+
+.middle {
+  width: 300px;
+  height: 240px;
+}
+
+.big {
+  width: 500px;
+  height: 400px;
+}
+
+.magentaBox {
+  background-color: magenta;
+  width: 150px;
+}
+
+.redBox {
+  background-color: red;
+  position: relative;
+}
+
+.orangeBox {
+  background-color: orange;
+  position: relative;
+  top: -60px;
+  left: 30px;
+}
+
+.coralBox {
+  background-color: coral;
+  position: relative;
+}
+
+.purpleBox {
+  background-color: purple;
+  position: absolute;
+  right: 0;
+  top: 30%;
+}
+
+.greenBox {
+  background-color: lightgreen;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}

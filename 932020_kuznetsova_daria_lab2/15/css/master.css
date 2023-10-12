@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 16px;
+}
+
+.block1 {
+  background-color: #7fffd4;
+  display: inline-block;
+  width: 200px;
+  height: 95px;
+  margin: 16px;
+}
+
+.block2 {
+  background-color: #faebd7;
+  margin: 0 5px;
+}
