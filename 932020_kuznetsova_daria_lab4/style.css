@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', Arial, sans-serif;
+
+    ::selection {
+        background-color: #e1e5eb;
+        color: green;
+    }
+}
+
+body {
+    background-color: #edeef0;
+    overflow: auto;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #507299;
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    margin-left: 20%;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    color: #d0d0d0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    max-width: 1120px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+
+    @media (max-width: 768px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+    }
+}
+
+nav a {
+    padding: 10px;
+    color: #507299; 
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #e1e5eb;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section {
+    margin: 0 20px;
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post {
+    height: fit-content;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post-header {
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.post-controls {
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 3px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    color: #507299;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+aside {
+    width: 100%;
+    max-width: 150px;
+
+    @media (max-width: 900px) {
+        display: none;
+    }
+}
+
+.right-side {
+    position: sticky;
+    top: 15px;
+}
+
+.right-side-box {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 10px;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.right-side-box p {
+    background-color: #edeef0;
+}
