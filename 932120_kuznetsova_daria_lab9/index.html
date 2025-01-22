@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>lab 9</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calc">
+        <p class="output" id="output"></p>
+        <div class="buttons">
+            <button onclick="number(7)">7</button>
+            <button onclick="number(8)">8</button>
+            <button onclick="number(9)">9</button>
+            <button onclick="operator('/')">/</button>
+            <button onclick="clearValue()">C</button>
+
+            <button onclick="number(4)">4</button>
+            <button onclick="number(5)">5</button>
+            <button onclick="number(6)">6</button>
+            <button onclick="operator('*')">*</button>
+            <button onclick="backspace()"><-</button>
+
+            <button onclick="number(1)">1</button>
+            <button onclick="number(2)">2</button>
+            <button onclick="number(3)">3</button>
+            <button onclick="operator('-')">-</button>
+
+            <button class="equal" onclick="equal()">=</button>
+            <button class="zero" onclick="number(0)">0</button>
+            <button onclick="dot()">.</button>
+            <button onclick="operator('+')">+</button>
+        </div>
+    </div>
+</body>
+</html>
